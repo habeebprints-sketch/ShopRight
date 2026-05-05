@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop Right</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Firebase (correct modern CDN) -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js"></script>
+</head>
+
+<body>
+
+<!-- SPLASH -->
+<div id="splash">🛒 Shop Right</div>
+
+<header>
+  <h2>Shop Right</h2>
+  <button onclick="login()">Login</button>
+  <button onclick="addProduct()">Sell</button>
+</header>
+
+<section id="status">Loading...</section>
+<main id="products"></main>
+
+<script src="script.js"></script>
+</body>
+</html>
